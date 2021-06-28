@@ -247,7 +247,6 @@ int fl_sort_bySize_help(const void* param1, const void* param2)
 {
     return fl_size(*(char**)param1)
         - fl_size(*(char**)param2);
-    //return fl_size_r(*(char**)param1) - fl_size_r(*(char**)param2);
 }
 //sort the files descending by fl_size
 void fl_sort_bySize(char** files)
