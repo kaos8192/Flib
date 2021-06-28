@@ -1,14 +1,3 @@
-#include <unistd.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <termios.h>
-#include <time.h>
-#include <dirent.h> 
-#include "flib.h"
-
 /* Code by Geir Anderson
  * Recieved help from Alex Sedgwick
  * Uses unistd, stat, and string
@@ -45,6 +34,16 @@
  *
  * ==================================================================
  */
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <termios.h>
+#include <time.h>
+#include <dirent.h> 
+#include "flib.h"
 
 //return a pointer to an array of c strings, the last element should be zero
 //this will list the name of each file in the path
